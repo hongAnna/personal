@@ -1,0 +1,142 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+a,
+span,
+i,
+em,
+ul,
+li,
+img,
+dl,
+dd,
+dt {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  border: 0 none;
+}
+html {
+  font-size: 625%;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  max-width: 640px;
+  min-width: 320px;
+  font-family: "微软雅黑";
+  font-size: 0.34rem;
+  color: #000;
+  margin: 0 auto;
+  height: 100%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.img1{display:block; width:100%;left:50%; margin-left:-3.2rem;position:relative;z-index:-1;margin-bottom:1.5rem;}
+.index_top span{position:absolute;color:#933; font-weight:700;}
+.span1{top:2.2rem; left:0.3rem;}
+.span2{top:3rem; left:1.3rem;}
+
+.index_main{ position:relative;}
+.bor{position:absolute;border:0.01rem #000 solid; width:4rem;left:50%; margin-left:-3.2rem;}
+.bor1{ margin-top:0.2rem;border:0.01rem #000 solid; width:4rem; margin-left:2.4rem;}
+.text{text-align:center; width:100%;line-height:0.4rem;  font-size:0.5rem;  padding-top:0.5rem;text-shadow: 0rem 0.04rem 0.08rem #73071b;}
+
+
+.se_bg{background:url(../img/skill_bg1.jpeg) no-repeat ;}
+.se_p{ position:relative;margin-left:1.8rem;}
+.se_p1{margin-left:1rem; color:#f35626; font-size:0.6rem; font-weight:bold;}
+.se_img1{ position:absolute;width:3rem; height:3rem;left:4rem;}
+.se_img2{ position:absolute;width:3rem; height:3rem;}
+.second_left{ margin-left:1rem; margin-top:-0.3rem; float: left;}
+.second_right{margin-top:-0.25rem; }
+
+
+
+.three_top .tri{ position:relative;width: 0;height: 0; border-left: 3.2rem solid transparent;border-right:4.6rem solid transparent;border-top:2.6rem solid rgba(7, 226, 227,0.3) ;}
+.thr_p{ position:absolute; top:0.6rem;left:50%; font-size:0.6rem; color:#20acc5; font-family:"仿宋";}
+
+.three_main dt{color:#07e2e3;}
+.three_main dd{ font-size:0.24rem; padding:0.1rem;}
+.three_left{ position:absolute; left:0.5rem;width:6rem; }
+.th_bor{border:0.01rem #000 solid; width:2.6rem;box-shadow:0rem 0.04rem 0.05rem #D1D1D1}
+
+.skill{position:relative; }
+.skill_bg{background:url(../img/skill_bg1.jpeg) no-repeat top left / 100% 100%;}
+.skill img{ width:60%; height:50%; padding-left:0.1rem;}
+.skill_left{ margin-left:0.3rem; padding-top:0.6rem; float:left; line-height:0.4rem; z-index:99;}
+.skill_left li{line-height:0.86rem;}
+.skill_right{padding-top:0.6rem;}
+.skill_right div{line-height:0.4rem; }
+.skill-i{ margin-left:3rem;color: #1D7463;}
+.skill_ball1{ position:absolute; left:3rem; }
+.skill_ball2{ position:absolute; left:4.5rem;top:0.7rem;}
+
+.myself{ background:url(../img/skill_bg4.jpeg) no-repeat top left / 100% 100%;}
+.myself-h4{ padding:0.35rem 0 0.35rem 0.35rem; color:rgb(217, 105, 70);}
+.myself-main{position:relative;width: 5rem;height: 5rem; margin: 0 auto; top:50%; margin-top: -4rem;}
+.myself img{display:block; width:100%;}
+.circle {
+		position:absolute;
+    width:1rem;
+    height: 1rem;
+    background: #16EAB7;
+    -moz-border-radius:0.5rem;
+    -webkit-border-radius:0.5rem;
+    border-radius:0.5rem;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height:1rem; 
+		overflow:hidden; 
+}
+.circle1{top:50%;left:50%; margin-left: -0.5rem; margin-top: -3.2rem;}
+.circle2{top:50%;left:15%; margin-left: -0.5rem; margin-top: -2rem;}
+.circle3{top:50%;left:83%; margin-left: -0.5rem; margin-top: -2rem;}
+.circle4{ top:70%;left:15%; margin-left: -0.5rem; margin-top: -2rem;}
+.circle5{ top:70%;left:83%; margin-left: -0.5rem; margin-top: -2rem;}
+.circle6{ top:50%;left:50%; margin-left: -0.5rem; margin-top: 1.5rem;}
+.circle7{ top:50%;left:50%; margin-left: -0.5rem; margin-top: -1rem;}
+
+.honor{position:relative;width:6rem;height:8rem; margin: 0 auto; overflow: hidden;}
+.honor img {width:100%; height: 100%;}
+.honor-img{position: absolute;z-index: 10;top:0}
+.honor-img1{position: absolute;z-index: 20;top:0.3rem;}
+.honor-img2{position: absolute;z-index: 30;top:0.6rem;}
+.honor-img3{position: absolute;z-index: 40;top:0.9rem;}
+.honor-img4{position: absolute;z-index: 50;top:1.2rem;}
+
+
+.last{width: 6rem;height: auto;margin: 0 auto;}
+.last-top{text-align: center;font-size: 0.60rem;margin-top: 1rem;color: #F28800;}
+.last-top1{font-size: 0.2rem;color: #0B6100;}
+.last-main{width:3rem;height: 3rem;margin:0.8rem auto; }
+.last-main img{width: 100%;height: 100%;border-radius: 0.1rem;float: left;}
+.last-b{width:5rem;height:2rem;margin: 0 auto;}
+.last-l{float: left;}
+.last-r li{font-size:0.3rem;height: 1rem;line-height:1rem;color: #7D4D25;margin-left: 1.2rem;}
